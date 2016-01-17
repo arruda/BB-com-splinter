@@ -15,7 +15,7 @@ app:
     - LC_MEASUREMENT=pt_BR.UTF-8
     - LC_IDENTIFICATION=pt_BR.UTF-8
   volumes:
-    - ./ff_profile:/root/.mozilla/firefox
+    # - ./ff_profile:/root/.mozilla/firefox
     - .:/data
     - /tmp/.X11-unix:/tmp/.X11-unix:ro
     - $XAUTHORITY:/root/.Xauthority
