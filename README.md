@@ -1,5 +1,5 @@
 # Meu BB
-Testando se consigo acessar o BB usando o splinter.
+Testando se consigo acessar o BB usando o splinter de dentro de um container.
 **OBS: ainda não tem nada pronto, apenas um container que já ta com o splinter configurado para entrar no BB**
 
 # Instalação
