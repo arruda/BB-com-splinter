@@ -1,5 +1,6 @@
 # Meu BB
 Testando se consigo acessar o BB usando o splinter.
+**OBS: ainda não tem nada pronto, apenas um container que já ta com o splinter configurado para entrar no BB**
 
 # Instalação
 ## Requerimentos
@@ -24,6 +25,8 @@ Caso de erro tentando copiar o `trusted.certs`, então é por que você esqueceu
 # Rodando
 `docker-compose run --rm python bb.py`
 
+# Agradecimentos
+Quero agradecer ao [@marioidival](https://github.com/marioidival) por me ajudar a encontrar o [tweet a respeito](https://twitter.com/henriquebastos/status/676335721125425152) disso, e ao [@luzfcb](https://github.com/luzfcb) pela dica do Splinter.
 
 #Licença
 Distribuido sob licença MIT, veja o arquivo LICENSE para mais informações.
