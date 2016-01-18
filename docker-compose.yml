@@ -14,6 +14,9 @@ app:
     - LC_TELEPHONE=pt_BR.UTF-8
     - LC_MEASUREMENT=pt_BR.UTF-8
     - LC_IDENTIFICATION=pt_BR.UTF-8
+    - AG
+    - CC
+    - SE
   volumes:
     # - ./ff_profile:/root/.mozilla/firefox
     - .:/data
