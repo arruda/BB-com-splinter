@@ -39,6 +39,8 @@ RUN javaws -userConfig deployment.expiration.check.enabled false
 
 ADD java_confs/security/trusted.certs /root/.java/deployment/security/trusted.certs
 
+RUN pip install ipdb
+
 WORKDIR /data/
 VOLUME /data
 
